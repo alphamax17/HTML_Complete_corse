@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Big Basket</title>
+	<style>
+		body{
+			margin: 0;
+		}
+
+		h2{
+			/*background-color: #8c7265;*/
+			/*padding: 10px 25px;*/
+			font-size: 40px;
+			text-align: center;
+		}
+	/*--------Header-------*/
+
+		header input{
+			height: 30px;
+			border-radius: 10px;
+			outline: none;
+
+		}
+
+		footer{
+			background-color: #8c7265;
+			text-align: center;
+			line-height: 5px;
+			padding:15px;
+		}
+		/*.button{
+			background-color: lightgrey;
+
+		}*/
+		.button:hover{
+			cursor: pointer;
+			background-color: lightgrey;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px grey;
+		}
+		header a{
+			font-size: 25px;
+			color: black;
+			margin: 10px;
+			text-decoration: none;
+		}
+		header a:hover{
+			cursor: pointer;
+			background-color: lightgrey;
+			border-radius: 10px;
+			padding: 5px;
+			box-shadow: 5px 5px 5px grey;
+		}
+	/*-------- Main Navigation Elements-----------*/
+		nav{
+			background-color: #8c7265;
+			overflow: hidden;
+		}
+		nav ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+		}
+		nav ul li {
+			float: left;
+		}
+
+		nav ul li a{
+			color: white;
+			text-decoration: none;
+			padding: 10px 25px;
+			/*margin: 10px;*/
+			font-size: 18px;
+			display: inline-block;
+		}
+
+		nav ul li a:hover{
+			background-color: #fee9ce;
+			color: black;
+		}
+/*--------figure Elements-----*/
+	figure table a {
+		color: black;
+		text-decoration: none;
+	}
+	figure table a:hover{
+		font-size: 20px;
+	}
+
+
+
+	</style>
+</head>
+<body>
+<!-- Header---- -->
+	<header>
+		<table width="100%;">
+			<tr>
+				<td>
+					<img src="img/bb.jpg" width="300" height="150">
+				</td>	
+				<td>	
+					<form>
+						<label style="font-size: 25px;">Search</label>
+						<input type="Search" size="100" >
+						<input type="submit" name="Submit" class="button">
+					</form>
+				</td>
+				<td>
+					<a href="bb_login.html" >Login</a>|
+					<a href="#">Signup</a>
+				</td>
+			</tr>
+		</table>
+	</header>
+<!--Main Navigation Element-->	
+	<nav>
+		<ul>
+			<li>
+				<!-- <details style="float: left;"> -->
+					<!-- summary> --><a href="#">Home</a><!-- </summary> -->
+					<!-- <a href="#">foods</a> -->
+				<!-- </details> -->
+			</li>
+			<li>
+				<!-- <details> -->
+					<!-- <summary> --><a href="#">Precautionary Measures</a><!-- </summary> -->
+					<!-- <a href="#">Corona Relief fund</a> -->
+				<!-- </details> -->
+			</li>
+			<li>
+				<a href="#">Mango</a>
+			</li>
+			<li>
+				<a href="#">Home and Kitchen</a>
+			</li>
+			<li>
+				<a href="#">Eggs,Meat and Fish</a>
+			</li>
+			<li>
+				<a href="#">Offers</a>
+			</li>
+			<li>
+				<a href="#">BB Speciality</a>
+			</li>
+
+		</ul>
+	</nav>
+<div>
+	<img src="img/mango.webp" width="50%">
+	<img style="float: left" src="img/fruits.webp" width="50%">
+</div>
+<!-- optional Navigation Element -->
+<!-- <nav>
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Precautionary Measures</a>
+			</li>
+			<li>
+				<a href="#">Mango</a>
+			</li>
+			<li>
+				<a href="#">Home and Kitchen</a>
+			</li>
+			<li>
+				<a href="#">Eggs,Meat and Fish</a>
+			</li>
+			<li>
+				<a href="#">Offers</a>
+			</li>
+			<li>
+				<a href="#">BB Speciality</a>
+			</li>
+
+		</ul>
+	</nav>-->
+<h2>Healthy and safety Basics</h2>
+<hr>
+	<figure style="margin-left: 200px;">
+		<table width="100%">
+			<tr>
+				<td>
+					<img  src="img/sanitizer.webp">
+					<a href="#">
+						<figcaption>Alcohol Based Hand Sanitizer</figcaption>
+					</a>
+				
+					<figcaption>
+						<form>
+							<select>
+								<option>50ml Bottle-&#8377;25</option>
+								<option>500ml bottle-&#8377;250</option>
+								<option>240ml bottle-&#8377;120</option>
+							</select>
+						</form>
+					</figcaption>
+				</td>
+				<td>
+					<img src="img/handwash.webp">
+					<a href="#">
+						<figcaption>Dettol handwash Liquid refill</figcaption>
+					</a>
+					<figcaption>
+						<form>
+							<select>
+								<option>50ml Bottle-&#8377;25</option>
+								<option>500ml bottle-&#8377;250</option>
+								<option>240ml bottle-&#8377;120</option>
+							</select>
+						</form>
+					</figcaption>
+				</td>
+				<td>
+					<img src="img/mask.webp">
+					<a href="#">
+						<figcaption>Godrej Protekt Face Mask-Protekt<br>P-W95 Reusable</figcaption>
+					</a>
+					<figcaption>
+						<form>
+							<select>
+								<option>1 Piece-&#8377;25</option>
+								<option>10 Piece-&#8377;250</option>
+								<option>5 Piece-&#8377;120</option>
+							</select>
+						</form>
+					</figcaption>
+				</td>
+				<td>
+					<img src="img/germ_protection.webp">
+					<a href="#">
+						<figcaption>Protekt Masterblaster Germ Protection<br> Liquid Handwash Refill, 750 ml</figcaption>
+					</a>
+				</td>
+			</tr>	
+		</table>
+	</figure>
+<br><br><br>
+<footer>
+	<h1>CopyRights&copy;2020-2021,BigBasket Online Supermarket.</h1>
+	<p>All Rights Reserved</p>
+	<small>Developed and mantained by Mukul Agrawal.</small>
+</footer>
+
+</body>
+</html>
