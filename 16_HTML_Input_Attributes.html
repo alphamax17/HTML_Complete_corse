@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: cyan;
+            padding: 10px;
+            margin:5px;
+            border-radius: 5px;
+            width: 400px
+        }
+    </style>
+</head>
+<body>
+
+    <!--Simple Input Field Attributes-->
+    <!--value,-->
+    <h4>for value By default</h4>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" name="Username" value="mukul">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+    <!--readonly,-->
+    <h4>for readonly</h4>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" name="Username" value="mukul" readonly="">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+    <!--disabled,-->
+    <h4>for disabled</h4>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" name="Username" value="mukul" disabled>
+        </form>
+    </div>
+    <!--size,-->
+    <h4>for change the size</h4>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" size="50">
+        </form>
+    </div>
+    <!--rows , cols-->
+    <h4>for rows and cols</h4>
+    <div>
+        <form>
+            <label>Enter your message Here</label><br>
+            <textarea rows="5" cols="30"></textarea><br>
+            <input type="submit" name="Submit">
+            
+        </form>
+    </div>
+
+    <!--HTML5 Input Field Attributes-->
+    <h1>HTML Input Field Atribute</h1>
+    <!--required,-->
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" required=""><br>
+            <input type="submit" name="Submit">
+
+        </form>
+    </div>
+
+    <!--novalidate,-->
+    <div>
+        <form novalidate=""><!--In This Attribute,it removes every default values and you can use your values you want-->
+            <label>Enter an Email</label>
+            <input type="Email">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+    <!--autofocus,-->
+    <h4>Username with autofocus</h4>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" autofocus="">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+    <!--pattern-->
+    <div>
+        <form>
+            <label>Twitter Username</label>
+            <input type="text" pattern="[A-Za-z0-9_]{1,15}$">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+    <!--placeholder,-->
+    <h4>Placeholder Attribute</h4>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" placeholder="Enter your Username">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+    
+
+
+<br><br><br>
+</body>
+</html>

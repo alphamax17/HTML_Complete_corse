@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,th,td{
+            border: 5px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+        #custom_table thead{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Simple Table Example-->
+    <h4>Simple Table Example</h4>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mukul</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>James</td>
+                <td>America</td>
+            </tr>
+             <tr>
+                <td>3</td>
+                <td>Jerry</td>
+                <td>UK</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+
+    <!--Table with col Span-->
+    <h4>Table with col span</h4>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th colspan="2">Name & Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mukul</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>James</td>
+                <td>America</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jerry</td>
+                <td>UK</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+
+    <!-- Table with row span-->
+    <h4>Table with row span</h4>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Mukul</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>James</td>
+                <td>America</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jerry</td>
+                <td>UK</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+    <!-- Custom Table with CSS-->
+    <h4>Custom Table with CSS</h4>
+    <table width="100%" id="custom_table">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mukul</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>James</td>
+                <td>America</td>
+            </tr>
+             <tr>
+                <td>3</td>
+                <td>Jerry</td>
+                <td>UK</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
